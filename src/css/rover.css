@@ -1,0 +1,12 @@
+img {
+  width: 35px;
+  /* display: flex;
+  justify-content: center; */
+}
+#rover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* left: var(--x);
+  top: var(--y); */
+}

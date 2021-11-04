@@ -1,0 +1,50 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  background: rgb(0, 0, 0);
+  border: 1px solid rgb(27, 37, 27);
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grid > .rover {
+  padding: 9px;
+  grid-column: 6;
+  grid-row: 6;
+}
+
+/* pour rendre la grille visible  */
+.grid > * {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+/* --------------------------------- */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* .container { */
+/* background: #282c34;
+
+  border: 1px rgb(98, 97, 97) solid;
+
+  display: inline-block;
+  text-align: center;
+  width: 50vw;
+  height: 50vw; */
+/* position: relative;
+  width: 50%; */
+/* display: inline-grid; */
+/* background: rgba(0, 0, 0, 0.1); */
+/* } */
+
+/* .container:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+} */
