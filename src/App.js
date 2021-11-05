@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./css/App.css";
-import Grid from "./Grid";
-import Horloge from "./Horloge";
+import Grid from "./components/Grid/Grid";
+import Horloge from "./containers/Horloge/Horloge";
 import React from "react";
 
 class App extends Component {

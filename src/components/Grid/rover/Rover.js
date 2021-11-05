@@ -1,12 +1,12 @@
 import React from "react";
 
-import "./css/rover.css";
+import classes from "./Rover.module.css";
 
-import img from "../src/assets/img/rover.png";
+import img from "./assets/img/rover.png";
 
 const rover = () => {
   return (
-    <div id="rover">
+    <div className={classes.rover} id="rover">
       <img src={img} alt="rover" />
     </div>
   );

@@ -1,9 +1,7 @@
-h3 {
+.horloge {
   font-size: small;
   text-align: left;
-  /* position: absolute; */
   background-position: bottom;
   bottom: 0;
   width: 100%;
-  /* padding-top: 50px; */
 }

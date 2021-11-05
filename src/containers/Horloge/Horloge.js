@@ -1,7 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import "./css/horloge.css";
-
+import classes from "./Horloge.module.css";
 class Horloge extends Component {
   state = {
     date: new Date(),
@@ -13,7 +12,11 @@ class Horloge extends Component {
     clearInterval(this.timerID);
   }
   render() {
-    return <h3>Horloge : {this.state.date.toLocaleTimeString()}</h3>;
+    return (
+      <h3 className={classes.horloge}>
+        Horloge : {this.state.date.toLocaleTimeString()}
+      </h3>
+    );
   }
 }
 export default Horloge;

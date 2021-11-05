@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Rover from "./Rover";
-import "./css/grid.css";
-
+import Rover from "./rover/Rover";
+import "./grid.css";
 class Grid extends Component {
   render() {
     return (
